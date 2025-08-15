@@ -12,7 +12,7 @@
 	<style>
 		#container
 			{
-				widtch: 640px;
+				width: 640px;
 				margin-left: auto;
 				margin-right: auto;
 			}
@@ -22,15 +22,25 @@
 				min-height: 480px;
 				margin-left: auto;
 				margin-right: auto;
+				clear: both;
 			}
 		#logo
 			{
 				width: 640px;
+				height: 80px;
 				background-color: gray;
-				text-align: center;
-				padding: 1px;
 				margin-left: auto;
-				margin-right: auto;
+				margin-right: auto;	
+			}
+		#logoimg
+			{
+				float: left;
+				width: 80px;	
+			}
+		#logotxt
+			{
+				float: left;
+				width: 560px;
 			}
 		#footer
 			{
@@ -41,6 +51,7 @@
 				margin-right: auto;
 				margin-left: auto;
 			}
+		
 	</style>
 </head>
 <body>
@@ -49,7 +60,12 @@
 
 	<div id="container">
 		<div id="logo">
-			<h1><img src="img/kanal.bmp" width=30 height=30 />Witam na mojej stronie  </h1>
+			<div id=logoimg>
+				<img src="img/kanal2.gif" width=80 height=80 />
+			</div>
+			<div id=logotxt>
+				<center><h1>Witam na mojej stronie</h1></center>
+			</div>
 		</div>
 		
 		<div id="page1">
@@ -58,7 +74,7 @@
 			<br /><br />Stronę starałem się napisać dla starszych komputerów oraz starego oprogramowania takiego jak Netscape Navigator,<br> czy starsze wersje programu Internet Explorer.</center>
 
 			<hr size=2 width="560">
-			<h3>Zawartość strony i nie tylko::</h3>
+			<h3>Zawartość strony i nie tylko:</h3>
 
 			<li/><a href="https://www.youtube.com/channel/UCLZQD3UZP-aTO_x8dkwpGfA">mój kanał</a> (rzecz jasna, link ten jest przekierowaniem do serwisu YouTube)<br>
 			<li/><a href="filesd.html">repozytorium plikow</a> <b>(do aktualizacji)</b><br>
