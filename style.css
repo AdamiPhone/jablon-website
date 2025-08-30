@@ -1,0 +1,43 @@
+#container
+	{
+		width: 640px;
+		margin: auto;
+	}
+#logo
+	{
+		width: 640px;
+		height: 80px;
+		background-color: gray;
+		margin-left: auto;
+		margin-right: auto;
+	}
+#logoimg
+	{
+		float: left;
+		width: 80px;	
+	}
+#logotxt
+	{
+		float: left;
+		width: 560px;
+	}
+#omnie
+	{
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		clear: both;
+	}
+#footer
+	{
+		margin-left: auto;
+		margin-right: auto;
+		background-color: gray;
+		padding: 5px;
+		text-align: center;
+	}
+#others
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
